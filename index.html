@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sushank Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="js/custom.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">Port<span>folio</span></div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+            <img src="images/prem.jpeg"  width="300px" height="300vh" style="vertical-align:middle;margin:70px 1300px">
+            <div class="text">
+                <p>Hello, I am</p>
+                <h1>Sushank Kadayat</h1>
+                <p>And I am a Front-end Developer</p>
+                <button class="c-btn">Hire me</button>
+            </div>
+        </header>
+        <section id="about">
+            <div class="section-info">
+                <h1>About</h1>
+                <p> _____Who i am?______</p>
+            </div>
+            <div class="about-row">
+                <div class="about-left-col">
+                    <img src="images/harry.jpeg">
+                </div>
+                <div class="about-right-col">
+                    <h2 id="p-tittle">
+                       Design What you need & Develop what you need !
+                    </h2>
+                    <p>Hi I'm a web designer/developer based in Bangalore,India.I have passion for web design and love to create for web and mobile devices.I'm a developer,So I know to create your website to run across devices using the latest technologies available.I enjoy building,learning & exploring things that live on the web and am looking forward for more opportunities to work.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="section-info">
+                <h1 style="color: white;">My SKill's</h1>
+                <p>____What i know____ </p>
+            </div>
+
+            <div class="skills-row">
+                <div class="skills-left-col">
+                <img src="images/myskills.jpg" width="400px" height="300vh">
+                </div>
+                <div class="skills-right-col">
+                    <div class="progress-div">
+                        <p style="color: crimson;">
+                        <span>HTML</span><br>
+                        <progress value="95" max="100"></progress>
+                        <span>95%</span>
+                        </p>
+                        <p style="color: crimson;">
+                        <span>CSS</span><br>
+                        <progress value="90" max="100"></progress>
+                        <span>90%</span>
+                        </p>
+                        <p style="color: crimson;">
+                        <span>JAVASCRIPT</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                        </p>
+                        <p style="color: crimson;">
+                        <span>Tableau</span><br>
+                        <progress value="75" max="100"></progress>
+                        <span>75%</span>
+                        </p>
+                        <p style="color: crimson;">
+                        <span>AdvanceExcel</span><br>
+                        <progress value="70" max="100"></progress>
+                        <span>70%</span>
+                        </p>
+                        <p style="color: crimson;">
+                        <span>Python</span><br>
+                        <progress value="40" max="100"></progress>
+                        <span>40%</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="services">
+            <div class="section-info">
+                <h1>Services</h1>
+                <p>___What i can do___</p>
+            </div>
+            <div class="services-row">
+                <div class="services-box">
+                    <img src="images/web-design.png" width="240px" height="190vh">
+                    <h2>Web Development</h2>
+                    <p>I like to keep it Simple.</p>
+                </div>
+                <div class="services-box">
+                    <img src="images/logo.png" width="240px" height="190vh">
+                    <h2>Logo Design</h2>
+                    <p>Works on Demand designing tools what you need.</p>
+                </div>
+                <div class="services-box">
+                    <img src="images/app design.png" width="240px" height="190vh">
+                    <h2>APP Development</h2>
+                    <p>I can design and develop beautiful app.</p>
+                </div>
+            </div>
+        </section>
+       <section id="contact">
+           <div class="section-info" style="color:crimson;">
+               <h1>Get in Touch</h1>
+               <p>Drop Message</p>
+           </div>
+           <div class="contact-row">
+               <div class="contact-left-col">
+                   <img src="images/calling.jpg" width="600px" height="300vh">
+               </div>
+               <div class="contact-right-col">
+                   <form>
+                       <h2>Connect with me</h2>
+                       <input type="text" name="" placeholder="Name">
+                       <input type="email" name="" placeholder="E-mail">
+                       <br>
+                       <textarea cols="40" rows="10" placeholder="Message"></textarea>
+                       <br>
+                       <button class="c-btn">Send</button>
+                   </form>
+               </div>
+           </div>
+       </section>
+       <section id="footer">
+           <h2>Developed by Sushank</h2>
+       </section>
+       <script src="js/jquery.ripples-min.js"></script>
+       <script>
+           jQuery(document).ready(function(){
+               $('header').ripples({
+  dropRadius: 4,
+  perturbance: 0.01,
+});
+});
+       </script>
+       
+    </body>
+</html>
